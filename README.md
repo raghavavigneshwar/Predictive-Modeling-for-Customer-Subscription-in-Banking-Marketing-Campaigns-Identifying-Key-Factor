@@ -20,7 +20,7 @@ This project focuses on predicting customer subscription to term deposits in dir
 - **Handling Missing Values**: Rows with missing values (< 1% of total) were removed to maintain data integrity.
 - **Categorical Encoding**: Categorical variables were encoded using One-Hot Encoding, and the 'unknown' category was handled separately.
 - **Class Imbalance**: SMOTE (Synthetic Minority Over-sampling Technique) was applied to balance the target variable distribution in the training set.
-- **Train-Test Split**: Data was split into 80% training and 20% testing sets, ensuring stratified sampling to preserve class distribution.
+- **Train-Test Split**: Data was split into 70% training and 30% testing sets, ensuring stratified sampling to preserve class distribution.
 
 ### 2. Feature Selection:
 - **Correlation Analysis**: A correlation matrix was used to identify key variables with significant impact on customer subscription.
